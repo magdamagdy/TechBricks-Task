@@ -6,11 +6,10 @@ Deploy backend on Heroku free tier (use the database as an addon)
 
 ## Hosting
 
-```
-Hosted on Heroku platform 
-using heroku postgres database
+Hosted on Heroku platform    
+using heroku postgres database    
 https://teckbricks-books.herokuapp.com/
-```
+
 
 
 ## Endpoints
@@ -33,4 +32,5 @@ https://teckbricks-books.herokuapp.com/
   attached postman collection for endpoints
   
   ## Database design
+  ### Relational Model
   ![Relational Model](https://github.com/magdamagdy/TechBricks-Task/blob/main/Relational%20Model.png)
