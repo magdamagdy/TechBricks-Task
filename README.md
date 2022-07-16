@@ -25,4 +25,7 @@ https://teckbricks-books.herokuapp.com/
   https://teckbricks-books.herokuapp.com/books/publisher
   
   
+  ## Attachment
+  
+  attached postman collection for endpoints
 
