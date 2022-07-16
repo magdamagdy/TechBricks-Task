@@ -1,7 +1,10 @@
 # TechBricks-Backend Task
-NestJs and PostegreSQL to create a monolithic back-end application to serve books 
-data to front end.
-## Usage
+NestJs and PostegreSQL to create a monolithic back-end application to serve books data to front end.    
+using Repository pattern
+* Task:   
+Deploy backend on Heroku free tier (use the database as an addon)
+
+## Hosting
 
 ```
 Hosted on Heroku platform 
@@ -25,4 +28,7 @@ https://teckbricks-books.herokuapp.com/
   https://teckbricks-books.herokuapp.com/books/publisher
   
   
+  ## Attachment
+  
+  attached postman collection for endpoints
 
