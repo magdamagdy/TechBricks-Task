@@ -20,8 +20,6 @@ export class BooksService {
     }
 
     async GetAllBooks(): Promise<{}> {
-        // const BOOK = await createQueryBuilder("BookEntity")
-        // .leftJoinAndSelect("BOOK.auther", "auther").getMany();
         return this.bookRepository.find({
             relations: ["author"]
         });
@@ -33,7 +31,7 @@ export class BooksService {
             
             relations: ["author"]
             }).then(info => info.forEach(bookObj => {
-                // console.log(bookObj)
+                
                 if (!(dict[bookObj.publisher]))
                 {
                     
@@ -41,15 +39,14 @@ export class BooksService {
                     let publisherName = bookObj.publisher
                     delete bookObj.publisher
                     dict[publisherName].push(bookObj)
-                    // console.log(dict[bookObj.publisher])
+                    
                 }
                 else 
                 {
-                    console.log("done")
                     let publisherName = bookObj.publisher
                     delete bookObj.publisher
                     dict[publisherName] = [...dict[publisherName], bookObj]
-                    // dict[publisherName].push(bookObj)
+                    
 
                 }
             }))

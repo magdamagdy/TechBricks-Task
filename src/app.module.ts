@@ -11,12 +11,12 @@ import { BooksModule } from './books/books.module';
     ConfigModule.forRoot({ isGlobal: true}),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      // url:process.env.URI,
-      host: process.env.Postgres_Host,
-      port: parseInt(<string>process.env.Postgres_Port),
-      username: process.env.Postgres_User,
-      password: process.env.Postgres_Password,
-      database: process.env.Postgres_Database,
+      url:process.env.DATABASE_URL,
+      // host: process.env.Postgres_Host,
+      // port: parseInt(<string>process.env.Postgres_Port),
+      // username: process.env.Postgres_User,
+      // password: process.env.Postgres_Password,
+      // database: process.env.Postgres_Database,
       ssl: { rejectUnauthorized: false },
       autoLoadEntities: true,
       synchronize: true

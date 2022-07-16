@@ -4,7 +4,7 @@ import { BookEntity } from '../models/books.entity';
 import { book } from '../models/books.interface';
 import { BooksService } from '../services/books.service';
 
-@Controller('books') //  http://localhost:3000/api/books
+@Controller('books') 
 export class BooksController {
     constructor(private bookService: BooksService){}
 
