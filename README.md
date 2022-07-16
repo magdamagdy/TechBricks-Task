@@ -9,7 +9,7 @@ Deploy backend on Heroku free tier (use the database as an addon)
 ```
 Hosted on Heroku platform 
 using heroku postgres database
-https://teckbricks-books.herokuapp.com/
+* https://teckbricks-books.herokuapp.com/
 ```
 
 
