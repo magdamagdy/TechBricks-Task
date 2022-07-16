@@ -31,4 +31,6 @@ https://teckbricks-books.herokuapp.com/
   ## Attachment
   
   attached postman collection for endpoints
-
+  
+  ## Database design
+  ![Relational Model](Relational Model.png)
